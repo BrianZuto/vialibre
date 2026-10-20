@@ -52,6 +52,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .pad{padding:0 16px}
 .scroll{flex:1;overflow-y:auto;scrollbar-width:none;min-height:0}
 .scroll::-webkit-scrollbar{display:none}
+.scroll > *{flex-shrink:0}
 .appbar{display:flex;align-items:center;gap:8px;padding:4px 8px 8px;flex:none}
 .iconbtn{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;flex:none}
 .iconbtn:hover{background:rgba(22,33,27,.06)}
